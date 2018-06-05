@@ -1960,7 +1960,7 @@ font-weight
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a757f4;
+  background: #ff9fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3045,5 +3045,8 @@ input.btn_medium {
 @media (max-width: 767px) {
   .v ul {
     padding: 20px 12px 0px 10px !important;
+  }
+  .v li {
+    padding: 0px !important;
   }
 }
