@@ -13,8 +13,8 @@
     <url>%2Fsteamcard%2F</url>
     <content type="text"><![CDATA[实现24小时游戏中，并从G胖那里赚回一笔 steam中的大部分游戏在游玩过程当中都会掉落2-4张卡牌，每张卡牌的价值随steam市场价格波动在￥0.4左右。如果有上百张卡牌，全部售出也会是一笔不小的收入，如果不想卖出，也可以补全剩余卡牌合成徽章赚取升级经验。但是那么多游戏，显然没那么多时间玩，要想快速获得卡牌，就需要“挂卡”。 使用服务器 要实现“云挂卡”，首先得有一台能保持24小时在线的机器，常见的就是虚拟主机或VPS。如何购买，如何连接SSH等等基本操作就不赘述了。 选择机器的时候要特别注意，由于Steam社区在国内被墙，请不要选择在国内服务器搭建 快速开始 安裝.NET Core 1sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc 剩余内容请等待近期更新]]></content>
       <tags>
-        <tag>VPS</tag>
         <tag>steam</tag>
+        <tag>VPS</tag>
       </tags>
   </entry>
   <entry>
