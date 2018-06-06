@@ -1225,7 +1225,7 @@
                 
                   <span class="post-meta-item-text">Symbols count in article:</span>
                 
-                <span title="Symbols count in article">1.4k</span>
+                <span title="Symbols count in article">2.6k</span>
               
 
               
@@ -1239,7 +1239,7 @@
                 
                   <span class="post-meta-item-text">Reading time&asymp;</span>
                 
-                <span title="Reading time">0:01</span>
+                <span title="Reading time">0:03</span>
               
             </div>
           
@@ -1260,7 +1260,42 @@
 
       
         
-          <p><center>教你如何薅G胖羊毛</center>
+          <div class="center"><br>
+<div class="countdown" id="countdown"></div>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jun 22, 2018 00:01:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Output the result in an element with id="countdown"
+    document.getElementById("countdown").innerHTML = "夏促倒计时 " + days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "夏促火热进行！";
+    }
+}, 1000);
+</script>
+
+<p>教你如何薅G胖羊毛
+</p></div>
 <img src="https://wx2.sinaimg.cn/large/005zWjpngy1fr8ys78nvvg30k00b9e82.gif" alt="">
 <br>
           <!--noindex-->
@@ -2412,7 +2447,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="Symbols count total">25k</span>
+    <span title="Symbols count total">27k</span>
   
 
   
@@ -2421,7 +2456,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="Reading time total">0:25</span>
+    <span title="Reading time total">0:27</span>
   
 </div>
 
