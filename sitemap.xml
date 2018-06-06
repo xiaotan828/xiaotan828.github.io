@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.txshore.tech/steamcard/</loc>
+    
+    <lastmod>2018-06-06T15:18:39.676Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.txshore.tech/steam/</loc>
     
-    <lastmod>2018-06-06T14:36:37.465Z</lastmod>
+    <lastmod>2018-06-06T14:41:16.030Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>https://blog.txshore.tech/vpsselling/</loc>
     
     <lastmod>2018-05-27T14:17:23.015Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.txshore.tech/steamcard/</loc>
-    
-    <lastmod>2018-05-27T14:09:31.246Z</lastmod>
     
   </url>
   
