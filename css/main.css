@@ -1960,7 +1960,7 @@ font-weight
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f71ff;
+  background: #b1f46e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3059,4 +3059,18 @@ input.btn_medium {
 pre,
 .highlight {
   line-height: 1.9;
+}
+.input-container .form-control {
+  padding: 25px 0 !important;
+  text-align: center !important;
+}
+.label {
+  display: block;
+  text-align: center;
+}
+#security {
+  background-color: #fff;
+}
+.a .private {
+  text-align: center;
 }
