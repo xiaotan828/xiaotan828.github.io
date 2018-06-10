@@ -1960,7 +1960,7 @@ font-weight
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b1f46e;
+  background: #81ffb0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3064,13 +3064,11 @@ pre,
   padding: 25px 0 !important;
   text-align: center !important;
 }
-.label {
-  display: block;
-  text-align: center;
-}
 #security {
   background-color: #fff;
 }
-.a .private {
-  text-align: center;
+.private-page {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 40px 36px 36px 36px;
 }
