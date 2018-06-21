@@ -1960,7 +1960,7 @@ font-weight
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff63;
+  background: #ff225c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3071,4 +3071,8 @@ pre,
   background-color: #fff;
   margin-top: 30px;
   padding: 40px 36px 36px 36px;
+}
+.private {
+  background-color: #fff;
+  padding: 10px 0px 10px 0px;
 }
