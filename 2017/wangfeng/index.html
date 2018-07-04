@@ -130,7 +130,15 @@
 
   
 
-
+<script type="text/javascript" src="/lib/jquery/index.js"></script>
+<script>
+x=0;
+$(document).ready(function(){
+  $("div").scroll(function() {
+    $("site-title").css("font-size","16px");
+  });
+});
+</script>
 
 
   <meta name="description" content="汪峰大概是我第一位喜欢的歌手，一开始听喜欢的是那些诸如《怒放的生命》，《飞得更高》一类的歌，鼓励人积极向上。那时候网络还没这么发达，不买唱片是听不到很多冷门歌曲的。后来政府出台了各种版权保护条款，各个平台也规范化了。比如在QQ音乐里就能找到专辑的所有歌曲。慢慢地发现，不仅仅是主打歌好听，有不少冷门歌其实也非常好听，同时">
@@ -212,7 +220,7 @@
 
   <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
-<nav id="fixnav">
+
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"> 
 
@@ -237,7 +245,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Shore's Blog</span>
+        <span class="site-title" id="site-title">Shore's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -390,10 +398,8 @@
 </div>
 
  </div>
-	  
     </header>
-</nav>
-<script src=/js/src/fixed.js></script>
+
     
 
 

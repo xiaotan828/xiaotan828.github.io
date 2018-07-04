@@ -130,7 +130,15 @@
 
   
 
-
+<script type="text/javascript" src="/lib/jquery/index.js"></script>
+<script>
+x=0;
+$(document).ready(function(){
+  $("div").scroll(function() {
+    $("site-title").css("font-size","16px");
+  });
+});
+</script>
 
 
   <meta name="description" content="This is my new website and this post is used to test if everying goes well. In the near future, I will share some experiences and some resources here.Well, it w">
@@ -214,7 +222,7 @@
 
   <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
-<nav id="fixnav">
+
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"> 
 
@@ -239,7 +247,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Shore's Blog</span>
+        <span class="site-title" id="site-title">Shore's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -392,10 +400,8 @@
 </div>
 
  </div>
-	  
     </header>
-</nav>
-<script src=/js/src/fixed.js></script>
+
     
 
 

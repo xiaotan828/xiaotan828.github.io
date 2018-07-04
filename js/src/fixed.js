@@ -1,6 +1,6 @@
 Window.onload=function (){
-    
-var $body = document.body,
+
+    var $body = document.body,
     //获取导航元素 id
         $fixnav = document.getElementById("fixnav");
         window.addEventListener('scroll', function() {
@@ -22,6 +22,5 @@ var $body = document.body,
             scrollCallback();
         }, 200);
     });	
-};
 };
 
