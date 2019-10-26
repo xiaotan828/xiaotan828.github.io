@@ -2,7 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.txshore.tech/private/2018-06-10.html</loc>
+    <loc>https://blog.txshore.tech/private/index.html</loc>
+    
+    <lastmod>2019-10-26T07:24:43.512Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.txshore.tech/private/2019-06-02.html</loc>
     
     <lastmod>2019-06-02T15:51:43.526Z</lastmod>
     
@@ -65,14 +72,7 @@
   </url>
   
   <url>
-    <loc>https://blog.txshore.tech/private/index.html</loc>
-    
-    <lastmod>2018-06-21T14:09:07.837Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.txshore.tech/private/2019-06-2.html</loc>
+    <loc>https://blog.txshore.tech/private/2018-06-10.html</loc>
     
     <lastmod>2018-06-21T14:03:51.604Z</lastmod>
     
